@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
+cp ~/.bashrc ~/.bashrc.old
+{ curl https://raw.githubusercontent.com/zhangyuan/deploy/master/rbenv/load ; cat ~/.bashrc; } > bashrc
+mv bashrc .bashrc
+rbenv install 2.2.2
+rbenv global 2.2.2
+rbenv rehash
+rbenv install bundler --no-ri --no-rdoc
+rbenv rehash
