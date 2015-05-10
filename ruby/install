@@ -4,6 +4,7 @@ curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rben
 cp ~/.bashrc ~/.bashrc.old
 { curl https://raw.githubusercontent.com/zhangyuan/deploy/master/rbenv/load ; cat ~/.bashrc; } > bashrc
 mv bashrc .bashrc
+source .bashrc
 rbenv install 2.2.2
 rbenv global 2.2.2
 rbenv rehash
