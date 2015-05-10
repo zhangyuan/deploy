@@ -8,5 +8,5 @@ source .bashrc
 rbenv install 2.2.2
 rbenv global 2.2.2
 rbenv rehash
-rbenv install bundler --no-ri --no-rdoc
+gem install bundler --no-ri --no-rdoc
 rbenv rehash
