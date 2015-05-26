@@ -1,0 +1,2 @@
+wget -c http://download.go.cd/gocd-deb/go-agent-15.1.0-1863.deb
+dpkg -i go-agent-15.1.0-1863.deb
