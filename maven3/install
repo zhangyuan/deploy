@@ -1,0 +1,4 @@
+wget http://apache.dataguru.cn/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz
+tar xvzf apache-maven*.tar.gz -C /tmp/
+mv apache-maven-3.3.3/ /opt/
+ln -nfs /opt/apache-maven-3.3.3/bin/mvn /usr/local/bin/mvn
