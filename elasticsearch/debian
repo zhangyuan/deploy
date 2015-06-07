@@ -2,6 +2,10 @@ wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.2
 dpkg -i elasticsearch-1.5.2.deb
 
 echo "network.bind_host: 127.0.0.1" >> /etc/elasticsearch/elasticsearch.yml
+echo "network.host: 127.0.0.1" >> /etc/elasticsearch/elasticsearch.yml
 
 # edit cluster.name / bind_host in /etc/elasticsearch/elasticsearch.yml
 # edit ES_HEAP_SIZE in /etc/default/elasticsearch
+
+echo
+echo "Please edit /etc/elasticsearch/elasticsearch.yml and /etc/default/elasticsearch"
