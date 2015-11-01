@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+gem sources -a https://ruby.taobao.org/
+gem sources -r https://rubygems.org/
