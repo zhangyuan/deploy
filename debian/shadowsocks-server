@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+apt-get install golang
+mkdir -p /opt/go
+go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
+echo "export GOPATH=/opt/go" >> ~/.bashrc
+echo "PATH=$PATH:/opt/go/bin" >> ~/.bashrc
