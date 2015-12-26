@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo "deb http://dl.bintray.com/gocd/gocd-deb/ /" > /etc/apt/sources.list.d/gocd.list
+wget --quiet -O - "https://bintray.com/user/downloadSubjectPublicKey?username=gocd" | apt-key add -
+apt-get update
+apt-get install go-server go-agent
