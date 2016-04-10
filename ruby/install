@@ -5,8 +5,8 @@ cp ~/.bashrc ~/.bashrc.old
 { curl https://raw.githubusercontent.com/zhangyuan/deploy/master/rbenv/load ; cat ~/.bashrc; } > bashrc
 mv bashrc .bashrc
 source .bashrc
-rbenv install 2.2.2
-rbenv global 2.2.2
+rbenv install 2.3.0
+rbenv global 2.3.0
 rbenv rehash
 gem install bundler --no-ri --no-rdoc
 rbenv rehash
