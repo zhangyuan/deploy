@@ -3,7 +3,6 @@
 apt-get install pptpd iptables
 
 echo "localip 10.21.0.1" >> /etc/pptpd.conf
-echo "localip 10.21.0.1" >> /etc/pptpd.conf
 echo "remoteip 10.21.0.100-200" >> /etc/pptpd.conf
 
 echo "ms-dns 8.8.8.8" >> /etc/ppp/pptpd-options
