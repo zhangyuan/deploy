@@ -4,12 +4,12 @@ echo "deb http://http.debian.net/debian wheezy-backports main" > /etc/apt/source
 
 apt-get update
 
-apt-get purge "lxc-docker*"
-apt-get purge "docker.io*"
+apt-get -y purge "lxc-docker*"
+apt-get -y purge "docker.io*"
 
 apt-get update
 
-apt-get install apt-transport-https ca-certificates
+apt-get install -y  apt-transport-https ca-certificates
 
 apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
 
@@ -21,7 +21,7 @@ apt-cache policy docker-engine
 
 apt-get upgrade
 
-apt-get install docker-engine
+apt-get install -y  docker-engine
 
 service docker start
 
