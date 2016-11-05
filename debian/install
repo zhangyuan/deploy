@@ -2,4 +2,4 @@
 
 apt-get update
 apt-get -y install aptitude
-aptitude -y install zlib1g-dev libssl-dev libreadline5-dev build-essential libxml2-dev libxslt-dev imagemagick libmagickwand-dev git-core curl tklib libncurses-dev git-core curl build-essential  zlib1g-dev libssl-dev vim tmux screen optipng jpegoptim build-essential zlib1g-dev libpcre3 libpcre3-dev sqlite3 libsqlite3-dev libmysqld-dev libmysqlclient-dev python nodejs unzip libreadline-dev
+aptitude -y install zlib1g-dev libssl-dev libreadline5-dev build-essential libxml2-dev libxslt-dev imagemagick libmagickwand-dev git-core curl tklib libncurses-dev git-core curl build-essential  zlib1g-dev libssl-dev vim tmux screen optipng jpegoptim build-essential zlib1g-dev libpcre3 libpcre3-dev sqlite3 libsqlite3-dev libmysqld-dev libmysqlclient-dev python nodejs unzip libreadline-dev apache2-utils
