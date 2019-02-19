@@ -31,6 +31,8 @@ Plugin 'ctrlp.vim'
 Plugin 'emmet.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'derekwyatt/vim-scala'
 
 
 " All of your Plugins must be added before the following line
